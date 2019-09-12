@@ -1,0 +1,13 @@
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('The United States of Ameriaca', 'USA', 'US Dollar','USD', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('Republic of The Union of Myanmar', 'MMR', 'Myanmar Kyat','MMK', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('The People\'s Republic of China', 'CHN', 'Yuan Renminbi','CNY', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('Malaysia', 'MYS', 'Malaysian Ringgit','MYR', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('European Union', 'EUR', 'Euro','EUR', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('The Russian Federation', 'RUS', 'Russisan Ruble','RUB', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('The United Kingdom', 'GBR', 'Pound Sterling','GBP', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('The Republic of Korea', 'KOR', 'Won','KRW', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('The Republic of India', 'IND', 'Indian Rupee','INR', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('The Republic of Singapore', 'SGP', 'Singapore Dollar','SGD', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('The Kingdom of Thailand', 'THA', 'Baht','THB', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('Japan', 'JPN', 'Yen','JPY', '2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into countries(countryName, countryCode, currencyName, currencyCode, created_at,updated_at) values('The Commonwealth of Australia', 'AUS', 'Australian Dollar','AUD', '2019-05-31 17:18:10','2019-05-31 17:18:10');

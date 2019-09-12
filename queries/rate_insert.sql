@@ -1,0 +1,15 @@
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(1,1,1,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(2,1,1520.15,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(3,1,6.304,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(4,1,4.342,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(5,1,0.8893,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(6,1,63.244,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(7,1,0.732,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(8,1,1189.663,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(9,1,68.3422,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(10,1,1.352,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(11,1,31.52,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(12,1,108.456,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(13,1,1.413,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(14,1,3.548,'2019-05-31 17:18:10','2019-05-31 17:18:10');
+insert into rates(country_id,rate_reference_id,rate,created_at,updated_at) values(15,1,83.774,'2019-05-31 17:18:10','2019-05-31 17:18:10');

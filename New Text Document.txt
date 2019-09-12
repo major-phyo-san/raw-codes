@@ -1,0 +1,7 @@
+The building regulations Approved Document B2, ‘Fire safety: Buildings other than dwellinghouses’, 
+defines the occupant capacity of a room, storey, 
+building or part of a building as:
+
+The maximum number of persons it is designed to hold; or
+The number calculated by dividing the area of room or storey(s) (m²) by a floor space factor 
+(m² per person) such as those given in Table C1 of the approved document for guidance.
