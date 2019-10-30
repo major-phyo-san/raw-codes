@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<meta http-equiv="X-UA-Compactible" content="IE=edge">-->
+<title>Currency Info</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/home.css" rel="stylesheet">
+
+</head>
+<body class="text-center">
+	<nav class="navbar navbar-light navbar-expand-md bg-light fixed-top">
+      <!--<a class="navbar-brand" href="#">--><h1 id="logo">Currency Info</h1><!--</a>-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="countries.html">List of Countries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="latest.html">Latest Currencies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">Historical Currencies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-12">
+      <p>You can get a list of countries for availabel currency exchange rates</p>
+    </div>
+    </div>
+
+    <div class="row">
+      <form>  
+      <div class="form-group">
+        <input type="text" class="form-control" name="getCountryId" placeholder="Country ID">        
+        <input type="text" class="form-control" name="getCountryName" placeholder="Country Name">   
+        <input type="text" class="form-control" name="getCountryCode" placeholder="Country Code">
+        <button type="submit" class="btn btn-primary">Get Country List</button>
+      </div>
+
+    </form>
+    </div>
+
+    
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+</body>
+</html>

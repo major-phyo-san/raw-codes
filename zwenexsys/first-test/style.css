@@ -1,0 +1,542 @@
+body h2,h3{
+	text-align: center;
+}
+
+body p {
+	color: rgb(141, 214, 199)
+}
+
+section#home{
+	display: block;
+	float: left;
+	width: 1340px;
+}
+
+div#banner{
+	background-image: url("images/marketing4.jpg");
+	background-position: center;	
+	width: absolute;
+	height: 300px;
+	display: block;	
+	
+}
+
+div#site-title{
+	width: absolute;
+	height: 80px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;	
+	text-align: top;
+	float: left;
+}
+
+div#site-title > h3{
+	color: rgb(30,240,60);
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 150px;
+}
+
+div#link-to{	
+	width: absolute;
+	height: 80px;
+	margin-left: 600px;
+}
+
+ul.nav {	
+	list-style: none;
+	margin: 0px;
+	padding: 0;
+}
+
+ul.nav li{
+	height: 40px;
+	width: absolute;  
+	line-height: 40px;
+	text-align: top;
+	margin: 10px 10px;
+	padding: 0;
+	float: left;
+}
+
+ul.nav li a{
+	display: block;
+	text-decoration: none;
+	color: rgb(230,210,200);
+}
+
+div#description{	
+	width: absolute;
+	height: 100px;
+	margin: 130px 0px;
+	color: rgb(255, 255, 255);
+}
+
+div#description > h1{
+	height: 20px;
+	text-align: left;
+	padding-left: 120px;
+}
+
+p#desc-para{
+	width: 300px;
+	margin-top: 30px;
+	padding-left: 110px;
+	text-align: left;
+}
+
+div#expertise-offer{
+	float: left;
+	width: 100%;
+	height: 120px;
+	margin: 0;
+	background-color: rgb(240, 240, 240);
+}
+
+p#expertise-para{
+	color: rgb(20, 20, 20);
+}
+
+div#expertise-offer > h3{
+	margin-left: 110px;
+	height: 20px;
+}
+
+div#expertise-offer > p{
+	width: 50%;
+	padding 0px 100px;
+	margin-top: 10px;
+	margin-left: 110px;
+	font-size: 12px;
+}
+
+section#services{
+	clear: both;
+	margin-top: 0px;
+	width: 1340px;	
+}
+
+div#services-description-container{	
+	width: 800px;			
+	margin-top: 0px;
+	margin-left: 250px;
+	padding: 0;
+	text-align: center;
+}
+
+div#services-description{
+	margin-top: 50px;
+	display: inline-block;
+}
+
+div#services-description > h3{
+	width: 100%;
+	height: 40px;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 0px;
+	margin-top: 0;
+	margin-bottom: 0px;	
+}
+
+div#services-description > p{
+	display: inline-block;
+	width: 600px;
+	font-size: 15px;
+	margin: 0px 100px;
+	padding: 0px;	
+}
+
+div#service-categories-container{
+	margin-top: 50px;
+	margin-left: 180px;
+	text-align: center;
+}
+
+div.categories{
+	margin: 10px;
+	width: 300px;
+	height: 130px;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;	
+	float: left;
+	border-color: rgb(2,252,219);
+}
+
+div.categories > h5{
+	text-align: left;	
+	margin: 10px 50px;
+}
+
+div.categories > p{
+	text-align: left;
+	margin: 10px 50px;
+	font-weight: 1px;
+}
+
+section#about{
+	clear: both;
+	margin-top: 400px;
+	height: 700px;
+	width: 1340px;
+}
+
+div#about-company-container{
+	height: 300px;
+}
+
+div#about-image{
+	height: 300px;
+	width: 650px;
+	float: left;
+	background-image: url("images/marketing.jpg");
+}
+
+div#about{
+	height: 300px;
+	width: 650px;
+	margin-left: 30px;
+	float: left;
+}
+
+div#about > a{
+	color: black;
+	text-decoration: none;
+	width: 20px;
+	height: 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+}
+
+div#content-video-container{
+	height: 300;
+	width: 850px;
+	background-color: #0ff;
+	margin-top: 50px;
+	margin-left: 250px;
+}
+
+div#content{
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+
+div#content-video{
+	width: 430px;
+	height: 300px;
+	margin-left: 10px;
+	float: left;
+	background-image: url("images/marketing2.jpg");
+}
+
+section#gallery{
+	clear: both;
+	margin-top: 0px;
+	height: 640px;
+	width: 1340px;
+	
+}
+
+div#gallery-description-container{
+	width: 400px;
+	height: 140px;
+	margin-left: 450px;
+}
+
+div#gallery-description-container > h3{
+	text-align: center;
+}
+
+div#gallery-description-container > p{
+	text-align: center;
+}
+
+div#gallery-images-container{
+	height: 500px;
+	width: 1340px;
+}
+
+div.gallery-images{
+	width: 335px;
+	height: 250px;
+	float: left;
+}
+
+div#gallery-image-1{
+	background-image: url("images/marketing.jpg");
+}
+
+div#gallery-image-2{
+	background-image: url("images/marketing2.jpg");
+}
+
+div#gallery-image-3{
+	background-image: url("images/marketing3.jpg");
+}
+
+div#gallery-image-4{
+	background-image: url("images/marketing4.jpg");
+}
+
+div#gallery-image-5{
+	background-image: url("images/marketing4.jpg");
+}
+
+div#gallery-image-6{
+	background-image: url("images/marketing3.jpg");
+}
+
+div#gallery-image-7{
+	background-image: url("images/marketing2.jpg");
+}
+
+div#gallery-image-8{
+	background-image: url("images/marketing.jpg");
+}
+
+section#our-team{
+	clear: both;
+	margin-top: 0px;
+	width: 1340px;	
+}
+
+div#team-description-container{
+	text-align: center;
+	width: 400px;
+	margin-left: 470px;
+}
+
+div#team-members-container{
+	width: 1205px;
+	height: 400px;
+	padding-left: 5px;
+	margin-left: 50px;
+}
+
+div.team-members{
+	margin: 20px 10px;
+	height: 350px;
+	width: 280px;
+	float: left;
+	text-align: center;
+}
+
+div.team-members > img{
+	display: inline-block;
+	margin-top: 10px;	
+	height: 210px;
+	width: 180px;
+}
+
+div.team-member-description{
+	display: inline-block;
+	width: 260px;
+	height: 150px;
+	text-align: center;
+}
+
+div.team-member-description > h5{
+	height: 15px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+
+}
+
+div.team-member-description > h6{
+	height: 15px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+div.team-member-description > p{
+	height: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+section#testimonials{
+	clear: both;
+	margin-top: 0px;
+}
+
+div#pricing-description-container{
+	width: 450px;
+	margin-left: 450px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+div#pricing-description-container > h3{
+	margin-bottom: 0px;
+}
+
+div#pricing-description-container > p{
+	margin-top: 5px;
+	margin-left: 20px;
+	text-align: center;
+	width: 400px;
+}
+
+div#pricing-container{
+	width: 785px;
+	height: 500px;
+	padding-left: 5px;
+	margin-left: 290px;
+}
+
+div.pricing-plans{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	float: left;
+	
+}
+
+div.pricing-plans > h4{
+	color: rgb(0,255,255);
+}
+
+div.pricing-plans > a{
+	margin-left: 50px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: rgb(15,40,190)
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+div#pricing-basic{
+	margin-top: 75px;
+	height: 350px;
+	width: 200px;
+}
+
+div#pricing-premium{
+	margin-top: 20px;
+	height: 450px;
+	width: 290px;
+}
+
+div#premium-price{
+	text-align: center;
+	margin-top: 50px;
+}
+
+div#premium-offers{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+div#pricing-premium > a{
+	margin-left: 100px;
+}
+
+div#pricing-developer{
+	margin-top: 75px;
+	height: 350px;
+	width: 200px;
+}
+
+div.price{
+	text-align: center;
+	line-height: 7px;
+	color: rgb(55,214,74);
+}
+
+div.offers{
+	text-align: center;
+	height: 140px;
+	margin-bottom: 50px;
+}
+
+section#contact{
+	height: 618px;
+}
+
+div#contact-us{
+	width: 500px;
+	margin-left: 400px;
+	text-align: center;
+}
+
+div#contact-form{
+	width: 800px;
+	height: 455px;
+	margin-left: 290px;
+}
+
+form#message-form{
+	text-align: center;
+
+}
+
+input#name-input {
+	display: inline-block;
+	width: 750px;
+	height: 50px;
+	margin: 20px;
+}
+
+input#email-input {
+	display: inline-block;
+	width: 750px;
+	height: 50px;
+	margin: 20px;
+}
+
+
+textarea#message-input{
+	display: inline-block;
+	margin-top: 20px;
+	width: 750px;
+	height: 150px;
+}
+
+input#message-send{
+	display: inline-block;
+	margin-top: 10px;
+	width: 130px;
+	height: 60px;
+	background-color: rgb(112, 224, 119);
+}
+
+div#contact-info{
+	height: 300px;
+	background-color: rgb(64,73,84);
+}
+
+div#map{
+	text-align: center;
+	width: 850px;
+	height: 300px;
+	float: left;
+}
+
+div#api-call{
+	text-align: center;
+	margin-top: 150px;
+}
+
+div#contact-detail{
+	width: 480px;
+	height: 300px;
+	float: left;
+}
+
+div#contact-detail{
+	text-align: left;
+	color: rgb(230,230,230);
+}
+
+div#details{
+	margin-left: 20px;
+}
