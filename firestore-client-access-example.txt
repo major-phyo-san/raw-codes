@@ -1,0 +1,42 @@
+var db = firebase.firestore();
+$scope.retrievedCityList = [];
+db.collection("available-cities").get().then((querySnapshot)=>{
+		querySnapshot.forEach((doc)=>{			
+			$scope.retrievedCityList.push({
+				"cityId": `${doc.id}`,
+				"cityName": `${doc.data().cityName}`,
+				"latitude": `${doc.data().latitude}`,
+				"longitude": `${doc.data().longitude}`,
+				"countryCode": `${doc.data().countryCode}`
+			});
+
+
+<div ng-view></div>
+
+            <script type="text/ng-template" id="cities-list.html">
+                <h1 class="service-description">Available Cities</h1>
+                <md-button class="md-raised menu-links" href="#!index/">Hide</md-button>
+                <md-table-container>
+                	<table md-table>
+                		<thead md-head>
+                			<tr md-row>
+                				<th md-column><span class="table-headings">City Id</span></th>
+                                    <th md-column><span class="table-headings">City Name </span></th>
+                                    <th md-column><span class="table-headings">Latitude</span></th>
+                                    <th md-column><span class="table-headings">Longitude</span></th>
+                                    <th md-column><span class="table-headings">Country Code </span></th>
+                			</tr>
+                		</thead>
+                		<tbody>
+                			<tr md-row ng-repeat="city in retrievedCityList">
+                				<td md-cell>{{city.cityId}}</td>
+                                <td md-cell>{{city.cityName}}</td>
+                                <td md-cell>{{city.latitude}}</td>
+                                <td md-cell>{{city.longitude}}</td>
+                                <td md-cell>{{city.countryCode}}</td>
+                			</tr>
+                		</tbody>
+                	</table>
+                </md-table-container>                     
+            </script>   
+        </div>          
