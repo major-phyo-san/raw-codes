@@ -1,0 +1,9 @@
+git remote add origin <url>.git
+
+git push -u origin master 
+
+Writing objects: 100% (6/6), 18.49 KiB | 3.70 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To <url>.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
