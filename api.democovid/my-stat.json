@@ -1,0 +1,26 @@
+{
+    "get": "statistics",
+    "parameters": {
+        "country": "Myanmar"
+    },
+    "errors": [],
+    "results": 1,
+    "response": [
+        {
+            "country": "Myanmar",
+            "cases": {
+                "new": "+1",
+                "active": 3,
+                "critical": 0,
+                "recovered": 0,
+                "total": 3
+            },
+            "deaths": {
+                "new": null,
+                "total": 0
+            },
+            "day": "2020-03-25",
+            "time": "2020-03-25T06:15:05+00:00"
+        }
+    ]
+}

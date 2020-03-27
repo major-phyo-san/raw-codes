@@ -1,0 +1,13 @@
+Gloabl latest
+https://covidapi.info/api/v1/global
+
+Global sofar
+https://covidapi.info/api/v1/global/2020-01-22/{today}
+
+Myanmar latest
+https://covid-193.p.rapidapi.com/statistics?country=Myanmar
+
+Header
+X-RapidAPI-Host: covid-193.p.rapidapi.com
+X-RapidAPI-Key: db232e08a0msh475843905294660p11e025jsn03fdea6e59f0
+RapidAPI-Project: COVID-Info
