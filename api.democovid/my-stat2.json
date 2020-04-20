@@ -1,0 +1,18 @@
+{ "get": "statistics", 
+"parameters": 
+{
+"country": "usa" 
+}, 
+"errors": [], 
+"results": 1, 
+"response": [ 
+{ 
+"country": "USA", 
+"cases": { "new": "+734", "active": 567533, "critical": 13487, "recovered": 48710, "total": 644823 }, 
+"deaths": { "new": "+51", "total": 28580 }, 
+"tests": { "total": 3265595 }, 
+"day": "2020-04-16", 
+"time": "2020-04-16T14:15:05+00:00" 
+}
+ ] 
+}
