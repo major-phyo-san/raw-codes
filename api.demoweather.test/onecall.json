@@ -1,0 +1,24 @@
+{ 
+"lat": 21.95, 
+"lon": 96.11, 
+"timezone": "Asia\/Yangon", 
+"timezone_offset": 23400, 
+"current": { 
+"dt": 1590302987, 
+"sunrise": 1590274407, 
+"sunset": 1590322301, 
+"temp": 37, 
+"feels_like": 39.56, 
+"pressure": 1006, 
+"humidity": 44, 
+"dew_point": 22.72, 
+"uvi": 12.45, 
+"clouds": 20, 
+"visibility": 7000, 
+"wind_speed": 3.6, 
+"wind_deg": 180, 
+"wind_gust": 7.7, 
+"weather": [ { 
+"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d" } 
+] } 
+}

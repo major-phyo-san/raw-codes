@@ -1,1 +1,15 @@
-{"coord":{"lon":96.08,"lat":21.98},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":24,"pressure":1015,"humidity":83,"temp_min":24,"temp_max":24},"visibility":6000,"wind":{"speed":1,"deg":320},"clouds":{"all":20},"dt":1574307883,"sys":{"type":1,"id":9315,"country":"MM","sunrise":1574293867,"sunset":1574333520},"timezone":23400,"id":1311874,"name":"Mandalay","cod":200}
+{ 
+"coord": { "lon": 96.08, "lat": 21.97 }, 
+"weather": [ { "id": 601, "main": "Clouds", "description": "few clouds", "icon": "02d" } ], 
+"base": "stations", 
+"main": { "temp": 13, "feels_like": 40.23, "temp_min": 38, "temp_max": 38, "pressure": 1005, "humidity": 45 }, 
+"visibility": 7000, 
+"wind": { "speed": 5.1, "deg": 180, "gust": 10.3 }, 
+"clouds": { "all": 20 }, 
+"dt": 1590303142, 
+"sys": { "type": 1, "id": 9315, "country": "MM", "sunrise": 1590274412, "sunset": 1590322310 }, 
+"timezone": 23400, 
+"id": 1311874, 
+"name": "Mandalay", 
+"cod": 200 
+}
