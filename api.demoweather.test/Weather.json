@@ -4,7 +4,7 @@
 "base": "stations", 
 "main": { "temp": 13, "feels_like": 40.23, "temp_min": 38, "temp_max": 38, "pressure": 1005, "humidity": 45 }, 
 "visibility": 7000, 
-"wind": { "speed": 5.1, "deg": 180, "gust": 10.3 }, 
+"wind": { "speed": 5.1, "deg": 180, "gust": 15}, 
 "clouds": { "all": 20 }, 
 "dt": 1590303142, 
 "sys": { "type": 1, "id": 9315, "country": "MM", "sunrise": 1590274412, "sunset": 1590322310 }, 
