@@ -1,0 +1,2 @@
+Laravel clear app cache
+php artisan config:cache php artisan config:clear composer dump-autoload -o

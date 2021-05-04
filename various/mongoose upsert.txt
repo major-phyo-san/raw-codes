@@ -1,0 +1,15 @@
+129
+
+You are looking for the new option parameter. The new option returns the newly created document(if a new document is created). Use it like this:
+
+var query = {},
+    update = { expire: new Date() },
+    options = { upsert: true, new: true, setDefaultsOnInsert: true };
+
+// Find the document
+Model.findOneAndUpdate(query, update, options, function(error, result) {
+    if (error) return;
+
+    // do something with the document
+});
+Since upsert creates a document if not finds a document, you don't need to create another one manually.

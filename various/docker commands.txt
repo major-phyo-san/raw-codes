@@ -1,0 +1,10 @@
+sudo docker run -it --rm \
+-v $PWD/client/components:/source/client/components \
+-v $PWD/client/test:/source/client/test \
+-v $PWD/src:/source/src \
+-v $PWD/target:/source/target \
+-p 8080:8080 \
+--env TEST_TYPE=watch-front \
+vfarcic/books-ms-tests
+
+sudo docker-compose -f docker-compose-dev.yml run feTestsLocal
